@@ -5,8 +5,8 @@
 This is a simple bash script that wraps the call to the Conjur CLI and implements the
 Cauldron provider interface.
 
-On success, returns variable value and exit code 0.
-On failure, returns error message and exit code 1.
+* On success, returns the variable's value on stdout and exit code 0.
+* On failure, returns an error message on stderr and non-0 exit code.
 
 ## Usage
 

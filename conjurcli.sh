@@ -9,8 +9,4 @@ if [ -z ${varname} ]; then
   exit 1
 fi
 
-out=$(conjur variable value ${varname} 2>&1)
-status=$?
-
-echo ${out}
-exit ${status}
+conjur variable value ${varname}
