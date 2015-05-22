@@ -19,7 +19,7 @@ On failure, returns error message and exit code 1.
 *Example*
 
 ```sh-session
-$ go run *.go -p ./conjurcli.sh --yaml 'SECRET_KEY: ci/aws/secret_access_key' printenv SECRET_KEY
+$ cauldron -p ./conjurcli.sh --yaml 'SECRET_KEY: ci/aws/secret_access_key' printenv SECRET_KEY
 AKIAPEJYFMKL8VZD5QKA
 ```
 
