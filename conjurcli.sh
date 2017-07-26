@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Cauldron provider that uses the Conjur CLI
+# Summon provider that uses the Conjur CLI
 
 varname=${1}
 
