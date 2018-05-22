@@ -4,9 +4,9 @@
 
 varname=${1}
 
-if [ -z ${varname} ]; then
+if [ -z "${varname}" ]; then
   echo -n "No argument received!"
   exit 1
 fi
 
-conjur variable value ${varname}
+conjur variable value "${varname}"
