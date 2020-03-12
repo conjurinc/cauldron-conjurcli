@@ -25,3 +25,11 @@ AKIAPEJYFMKL8VZD5QKA
 
 Here we are grabbing an AWS key by providing secrets.yml inline and printing the environment
 variable Summon exports.
+
+
+## Contributing
+
+We welcome contributions of all kinds to this repository. For instructions on how to get started and descriptions of our development workflows, please see our [contributing
+guide][contrib].
+
+[contrib]: CONTRIBUTING.md
